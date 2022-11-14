@@ -699,10 +699,18 @@ h3 {
 	.footer__container,
 	.header__container {
 		display: flex;
-		flex-direction: column;
 		gap: 15px;
 		padding: 15px;
 	}
+	
+	.header__container {
+		flex-direction: column;
+	}
+	
+	.footer__container {
+		flex-direction: column-reverse;
+	}
+	
 
 	.footer__logo,
 	.header__logo {
